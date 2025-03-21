@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Gugan</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+            color: #333;
+        }
+
+        header {
+            background-color: #283593;
+            color: #fff;
+            text-align: center;
+            padding: 2.5rem 0;
+            position: relative;
+        }
+
+        .header-content h1 {
+            font-size: 2.8rem;
+            margin: 0;
+        }
+
+        .header-content p {
+            font-size: 1.2rem;
+            margin-top: 5px;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            border: 4px solid #fff;
+        }
+
+        nav {
+            background-color: #1a237e;
+            text-align: center;
+            padding: 0.8rem 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffeb3b;
+        }
+
+        .section-content {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1.5rem auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #1a237e;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #1a237e;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        ul li a:hover {
+            color: #ff5722;
+        }
+
+        .download-button {
+            background-color: #1a237e;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            display: inline-block;
+            transition: background 0.3s ease;
+        }
+
+        .download-button:hover {
+            background-color: #3949ab;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #1a237e;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .profile-picture {
+                width: 100px;
+                height: 100px;
+                top: 15px;
+                left: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="/gugan.jpg" alt="Your Profile Picture" class="profile-picture">
+        <div class="header-content">
+            <h1>GUGAN</h1>
+            <p>Software Engineer</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>I'm a <b>Software Engineer</b> currently in my second year of studying BCA at Tagore College of Arts and Science, Chennai, under the University of Madras. I am passionate about technology and aspire to create innovative solutions through coding and problem-solving. I have honed my skills in various technologies and am eager to apply them in real-world projects.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p><b>Tagore College of Arts and Science</b>, Chennai - BCA (Bachelor of Computer Applications), 2nd Year</p>
+            <p><b>University of Madras</b></p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>Data Structures</li>
+                <li>SQL</li>
+                <li>Excel</li>
+                <li>PowerPoint</li>
+                <li>Canva</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="section-content">
+            <h2>Experience</h2>
+            <p>I have worked on several personal projects that showcase my skills and creativity. One of them is a <b>Resume Making Tool</b> that allows users to create professional resumes easily. I also developed a <b>Portfolio Making Tool</b> to help individuals build and present their portfolios. Additionally, I have experience in <b>Canva Designing Projects</b>, where I designed creative graphics for social media and marketing purposes. Furthermore, I enjoy solving problems, and I have completed several <b>Problem Solving Projects</b> that helped me improve my logical and analytical thinking skills.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="section-content" style="text-align: center;">
+            <h2>Resume</h2>
+            <a href="/White Simple Student CV Resume.pdf" target="_blank" class="download-button">Download CV</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 GUGAN | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 50,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
